@@ -14,6 +14,16 @@
 	background-color: #648B79;
 	z-index: 1000000;
 	font-size: 2em;
+	opacity: 0;
+}
+
+.sidebar_menu{
+	position: fixed;
+	width: 250px;
+	margin-left: 0px;
+	overflow: hidden;
+	height: 100vh;
+	background-color: rgba(17, 17, 17, 0.9);
 }
 
 .fa-times{
