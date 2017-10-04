@@ -65,12 +65,12 @@ header nav{
 }
 
 header .highlight, header .current a{
-	color:#c5b358;
+	color:#ACACAC;
 	font-weight: bold;
 }
 
 header a:hover{
-	color:#C5B358;
+	color:#ACACAC;
 	font-weight:bold;
 }
 
