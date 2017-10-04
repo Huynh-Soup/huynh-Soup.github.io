@@ -152,7 +152,7 @@ header a:hover{
 }
 
 #boxes .box img{
-	height:150px;
+	height:150;
 	width: 100%;
 }
 
@@ -160,7 +160,7 @@ footer{
 	padding:20px;
 	margin-top:20px;
 	color:#000000;
-	background-color:#C5B358;
+	background-color #a3a1a1;
 	text-align:center;
 }
 
