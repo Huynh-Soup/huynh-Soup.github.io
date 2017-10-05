@@ -141,7 +141,7 @@ header a:hover{
 /*boxes */
 #boxes{
 	margin-top:10px;
-	color: #C5B358;
+	color:#ACACAC;
 }
 
 #boxes .box{
@@ -198,7 +198,7 @@ footer{
 }
 
 body .highlight, body .current a{
-	color:#C5B358;
+	color:#ACACAC;
 	font-weight: bold;
 }
 body a:hover{
