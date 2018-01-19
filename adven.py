@@ -46,7 +46,7 @@ if response =='b':
     if response =='a' or response =='b':
         print('You chose a job that the future needs, and made money that would support your apartment')
 
-    if response=='c':
+    if response=='b':
         print('You chose a job that scams others of their money.')
     
 
