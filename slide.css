@@ -4,7 +4,7 @@ body {
 	line-height:1.5;
 	padding:0;
 	margin: 0;
-	background-color: #00308F;
+	background-color:#FFFF00;
 	list-style: none;
 
 	}
@@ -65,7 +65,7 @@ header nav{
 }
 
 header .highlight, header .current a{
-	color:#a3a1a1;
+	color:#009900;
 	font-weight: bold;
 }
 
@@ -77,7 +77,6 @@ header a:hover{
 /*showcase */
 #showcase{
 	min-height:200px;
-	background:url("https://i.ytimg.com/vi/AY5iyS3D9bA/maxresdefault.jpg") no-repeat;
 	background-position:center;
 	text-align:center;
 	color:#ffffff;
@@ -121,7 +120,6 @@ header a:hover{
 /*siteguide */
 #siteguide {
 	min-height:200px;
-	background:url('../img/soboba5.jpg') no-repeat;
 	background-position:center;
 	text-align:center;
 	color:#ffffff;
