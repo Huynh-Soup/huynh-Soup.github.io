@@ -10,7 +10,7 @@ body {
 	}
 
 .container{
-		width:99%;
+		width:95%;
 		margin:auto;
 		overflow:hidden;
 	}
@@ -34,14 +34,14 @@ header {
 	padding-top:30px;
 	padding-left: 10px;
 	min-height:70px;
-	border-bottom:#009900 10px solid;
+	border-bottom:#009910 10px solid;
 }
 
 header a{
 	color:#ffffff;
-	text-decoration: none;
-	text-transform: lowercase;
-	font-size: 16px;
+	text-decoration: underline;
+	text-transform: Uppercase;
+	font-size: 12px;
 }
 
 
