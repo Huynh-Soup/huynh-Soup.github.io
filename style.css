@@ -19,7 +19,7 @@ ul li
 {
     list-style: none;
     display: inline-block;
-    padding: 20px;
+    padding: 12px;
 }
 ul li:hover
 {
@@ -28,7 +28,7 @@ ul li:hover
 ul li a
 {
     color: #fff;
-    text-decoration: none;
+    text-decoration: ;
 }
 .toggle
 {
@@ -41,8 +41,6 @@ ul li a
     font-size: 30px;
     display: none;
 }
-@media (max-width:768px)
-{
     .toggle
     {
         display: black;
@@ -50,11 +48,11 @@ ul li a
     ul
     {
     width: 100%;
-    display: none;
+    border-color: #ffffff;
     }
     ul li
     {
-    display: block;
+    font-family: monospace;
     text-align: center;
     }
     .active
