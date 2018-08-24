@@ -21,15 +21,17 @@ ul li
     list-style: none;
     display: inline-block;
     padding: 12px;
+
 }
 ul li:hover
 {
     background: #C0C0C0;
+    text-decoration: line-through ;
 }
 ul li a
 {
     color: #fff;
-    text-decoration: ;
+    text-decoration: none ;
 }
 .toggle
 {
