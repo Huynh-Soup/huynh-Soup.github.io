@@ -3,37 +3,24 @@ body
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: #5DAAA8;
+    background: #00308F;
+    background-clip: content-box;
 }
 header nav
 {
     float:right;
     margin-top: 0px;
     width: 100%;
-    background: #5d8aa8;
+    background: #5072A7;
 }
 
 header .highlight, header .current a{
     color: #dadada;
     font-family: sans-serif;
 }
-
-/*showcase for the middle*/
-
-#showcase{
-    min-height: 400px;
-    background: url(cv.jpg) no-repeat;
-    background-size:100% 100%;
-    background-position:center;
-    text-align: center;
-    color: #ffffff;
-    text-shadow: 2px 2px #1f1f1f ;
-}
-
-
 ul
 {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     padding: 1;
 }
@@ -83,3 +70,14 @@ ul li a
     {
         display: block;
     }
+
+/*showcase for the middle*/
+#showcase{
+    min-height: 400px;
+    background: #ffffff url(cv.jpg) no-repeat;
+    background-size: cover;
+    background-position:center;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 5px 5px  #1f1f1f ;
+}
