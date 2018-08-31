@@ -5,11 +5,32 @@ body
     font-family: sans-serif;
     background: #5DAAA8;
 }
-nav
+header nav
 {
+    float:right;
+    margin-top: 0px;
     width: 100%;
     background: #5d8aa8;
 }
+
+header .highlight, header .current a{
+    color: #dadada;
+    font-family: sans-serif;
+}
+
+/*showcase for the middle*/
+
+#showcase{
+    min-height: 400px;
+    background: url(cv.jpg) no-repeat;
+    background-size:100% 100%;
+    background-position:center;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px #1f1f1f ;
+}
+
+
 ul
 {
     width: 80%;
