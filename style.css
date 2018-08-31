@@ -22,7 +22,7 @@ ul
 {
     width: 90%;
     margin: 0 auto;
-    padding: 1;
+    padding: 2px;
 }
 ul li
 {
@@ -34,7 +34,7 @@ ul li
 ul li:hover
 {
     background: #C0C0C0;
-    text-decoration: line-through ;
+    text-decoration: line-through;
 }
 ul li a
 {
@@ -75,9 +75,14 @@ ul li a
 #showcase{
     min-height: 400px;
     background: #ffffff url(cv.jpg) no-repeat;
+    padding: 0px; border:10px solid #C0C0C0;
     background-size: cover;
     background-position:center;
     text-align: center;
-    color: #ffffff;
-    text-shadow: 5px 5px  #1f1f1f ;
+    color: #111111;
+    text-shadow: 5px 5px #ababab;
+}
+#showcase h1{
+    background-color: #C0C0C0;
+    text-decoration: none;
 }
