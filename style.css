@@ -35,6 +35,7 @@ ul li:hover
 {
     background: #C0C0C0;
     text-decoration: line-through;
+    text-transform: uppercase;
 }
 ul li a
 {
@@ -87,5 +88,29 @@ ul li a
     text-decoration: none;
 }
 #box{
-    background-color: #ffffff
+    background-color: #C0C0C0;
+}
+#box h1{
+    font-family: comic;
+}
+section div #box{
+    font-family: fantasy;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer h2{
+    text-decoration: underline;
+    text-align: center;
+    text-shadow: #C0C0C0 2px 2px;
 }
