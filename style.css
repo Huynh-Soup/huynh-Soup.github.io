@@ -89,14 +89,12 @@ ul li a
 }
 #box{
     background-color: #C0C0C0;
+    text-align: center;
+    text-shadow: #ffffff 2px 2px;
 }
 #box h1{
-    font-family: comic;
+    font-family: sans-serif;
 }
-section div #box{
-    font-family: fantasy;
-}
-
 
 
 
