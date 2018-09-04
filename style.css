@@ -6,14 +6,23 @@ body
     background: #00308F;
     background-clip: content-box;
 }
+ul h1{
+    float: center;
+    font-family: cursive;
+}
 header nav
 {
     float:right;
     margin-top: 0px;
     width: 100%;
     background: #5072A7;
+    font-size: 20px;
 }
-
+nav h1{
+    float: center;
+    padding: 0px;
+    background-color: #C0C0C0;
+}
 header .highlight, header .current a{
     color: #dadada;
     font-family: sans-serif;
@@ -96,17 +105,35 @@ ul li a
     font-family: sans-serif;
 }
 
+/*boxes for image links*/
+/*boxes */
+#boxes{
+	margin-top:3px;
+	color: #C5B358;
+}
+.box{
+	float:left;
+	text-align:center;
+	width:25.33%;
+	padding:4%;
+}
+
+a .box{
+	text-decoration: None
+	color: #C5B358;
+}
+#boxes .box img{
+	height:225px;
+	width: 100%;
+}
 
 
 
 
-
-
-
-
-
-
-
+footer {
+    background-color: #5072A7;
+    padding: 15px;
+}
 footer h2{
     text-decoration: underline;
     text-align: center;
