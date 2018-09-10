@@ -22,6 +22,8 @@ nav h1{
     float: center;
     padding: 0px;
     background-color: #C0C0C0;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 header .highlight, header .current a{
     color: #dadada;
@@ -97,6 +99,16 @@ ul li a
     text-decoration: none;
 }
 #box{
+    float: left;
+    background-color: #ffffff;
+    text-align: center;
+    text-shadow: #ffffff 2px 2px;
+    width: 350;
+    height: 50%;
+    padding: 9;
+    
+}
+#divider{
     background-color: #C0C0C0;
     text-align: center;
     text-shadow: #ffffff 2px 2px;
@@ -112,10 +124,11 @@ ul li a
 	color: #C5B358;
 }
 .box{
-	float:left;
-	text-align:center;
-	width:25.33%;
-	padding:4%;
+    margin-top: 20px;
+	float: left;
+	width:30%;
+	padding:1%;
+	list-style: none;
 }
 
 a .box{
@@ -123,6 +136,7 @@ a .box{
 	color: #C5B358;
 }
 #boxes .box img{
+    float: left;
 	height:225px;
 	width: 100%;
 }
@@ -139,3 +153,4 @@ footer h2{
     text-align: center;
     text-shadow: #C0C0C0 2px 2px;
 }
+
