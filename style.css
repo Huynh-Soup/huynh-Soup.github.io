@@ -97,16 +97,15 @@ ul li a
 #showcase h1{
     background-color: #C0C0C0;
     text-decoration: none;
-}
+} 
 #box{
-    float: left;
+    float: center;
     background-color: #ffffff;
     text-align: center;
     text-shadow: #ffffff 2px 2px;
     width: 350;
     height: 50%;
     padding: 9;
-    
 }
 #divider{
     background-color: #C0C0C0;
@@ -122,10 +121,11 @@ ul li a
 #boxes{
 	margin-top:3px;
 	color: #C5B358;
+	float: center;
 }
 .box{
     margin-top: 20px;
-	float: left;
+	float: right;
 	width:30%;
 	padding:1%;
 	list-style: none;
@@ -133,14 +133,16 @@ ul li a
 
 a .box{
 	text-decoration: None
-	color: #C5B358;
+	color:#C5B358;
 }
 #boxes .box img{
-    float: left;
+    float: center;
 	height:225px;
 	width: 100%;
 }
-
+div container{
+    float: inherit;
+}
 
 
 
